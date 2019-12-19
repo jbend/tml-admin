@@ -1,1 +1,9 @@
-{}
+{
+	"auth": {
+		"tmladminf5de08c9": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

@@ -10,6 +10,11 @@
             "StackName": "amplify-tml-admin-local-210556",
             "StackId": "arn:aws:cloudformation:us-west-2:904368838039:stack/amplify-tml-admin-local-210556/3f5b3780-221d-11ea-9bad-0a6ece383596",
             "AmplifyAppId": "d197lps31z82d8"
+        },
+        "categories": {
+            "auth": {
+                "tmladminf5de08c9": {}
+            }
         }
     }
 }
