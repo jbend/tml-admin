@@ -1,0 +1,20 @@
+{
+    "appName": "tml-admin",
+    "roleName": "pinpointLambdaRoledaa26785",
+    "cloudWatchPolicyName": "cloudWatchPolicydaa26785",
+    "pinpointPolicyName": "pinpointPolicydaa26785",
+    "authPolicyName": "pinpoint_amplify_daa26785",
+    "unauthPolicyName": "pinpoint_amplify_daa26785",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
